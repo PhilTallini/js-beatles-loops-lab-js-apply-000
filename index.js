@@ -22,7 +22,14 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveBeatles(num) {
-  
+  var text = "";
+  var i = 0;
+  do {
+    text += "The number is " + i;
+    i++;
+  }
+  while (i < 5);
+
 }
 
 
