@@ -34,6 +34,7 @@ function iLoveBeatles(num) {
     i++;
   }
   while (i < 15);
+  newArr.push(text);
 
 }
 
