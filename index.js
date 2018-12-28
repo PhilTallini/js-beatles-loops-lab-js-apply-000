@@ -22,20 +22,21 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveBeatles(num) {
-  var newArr = [];
-  var text = "I love the Beatles";
-  if (i >= 15) {
-    return newArr.push(text);
-  }
-  
+  var newArr = []
+  var text = 'I love the Beatles';
   var i = 0;
-  do {
-    text += "The number is " + i;
-    i++;
-  }
-  while (i < 15);
-  newArr.push(text);
 
+  if (num >= 15) {
+    newArr.push(text);
+    return newArr;
+  }
+
+  do {
+  i  += 1;
+    newArr.push(text);
+  }  while (i <= num);
+
+  return newArr;
 }
 
 
