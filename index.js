@@ -21,7 +21,7 @@ function johnLennonFacts(facts) {
   return newArr;
 }
 
-function iLoveBeatles(num) {
+function iLoveTheBeatles(num) {
   var newArr = []
   var text = 'I love the Beatles!';
   var i = 0;
